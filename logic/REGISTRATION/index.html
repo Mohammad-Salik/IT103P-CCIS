@@ -1,0 +1,50 @@
+<html>
+<head>
+</head>
+<body class="body">
+    <div class="box-shadow">
+        <h1 align='center'>REGISTRATION</h1>
+        <form action="success-php.php" method="post">
+            <p>
+                FIRST NAME :  
+                <input class="name" type="text" name="first_name" required />
+            </p>
+            <p>
+                MIDDLE NAME :  
+                <input class="name" type="text" name="middle_name" required />
+            </p>
+            <p>
+                LAST NAME :  
+                <input class="name" type="text" name="last_name" required />
+            </p>
+            <p>
+                MCM EMAIL :  
+                <input class="email" type="text" name="email" required />
+            </p>
+            <p>
+                PASSWORD :  
+                <input class="password" type="password" name="password" required />            
+            </p>
+            <p>
+                ACCOUNT TYPE : 
+                <input type="radio" name="type" value="admin" required /> ADMIN
+                <input type="radio" name="type" value="standard"> STANDARD
+            </p>
+            DEPARTMENT ROLE
+            <select class="combo" name="occupation">
+                <option name="student" value="student">
+                    STUDENT
+                </option>
+                <option name="faculty" value="faculty">
+                    FACULTY
+                </option>
+            </select>
+            <p>
+                ID NUMBER:  
+                <input class="name" type="text" name="id_number" required />
+            </p>
+            <input class="button" type="submit">
+        </form>
+    </div>
+</body>    
+</html>
